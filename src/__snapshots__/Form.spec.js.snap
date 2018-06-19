@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form Component should render the same snapshot every time 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "flex": 0,
+        "height": 30,
+      }
+    }
+  >
+    <input
+      className="qa-name"
+      onChange={[Function]}
+      style={
+        Object {
+          "height": "100%",
+        }
+      }
+      value="Max"
+    />
+    <input
+      className="qa-message"
+      onChange={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "height": "100%",
+        }
+      }
+      value="Hello"
+    />
+    <button>
+      Send message
+    </button>
+  </div>
+</form>
+`;
